@@ -33,12 +33,13 @@ const GraficoDePizza: FC<IGraficoDePizza> = ({
                             itens.eletronicos.celulares[2].quantidade : itens.eletronicos.notebooks[2].quantidade,
                     },
                 ]}
+                innerRadius={50}
                 colorScale={[
                     typeItem === "celulares" ? itens.eletronicos.celulares[0].color : itens.eletronicos.notebooks[0].color,
                     typeItem === "celulares" ? itens.eletronicos.celulares[1].color : itens.eletronicos.notebooks[1].color,
                     typeItem === "celulares" ? itens.eletronicos.celulares[2].color : itens.eletronicos.notebooks[2].color,
                 ]}
-                labelRadius={50}
+                labelRadius={70}
                 style={{
                     labels: {
                         fill: "#000",

@@ -8,8 +8,4 @@ export const Button = styled.button`
     border-radius: 0.5rem;
     border: none;
     cursor: pointer;
-
-    @media screen and (min-width: 600px) {
-        width: 20rem; 
-    }
 `
